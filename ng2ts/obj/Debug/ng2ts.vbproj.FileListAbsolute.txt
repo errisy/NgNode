@@ -1,0 +1,10 @@
+C:\HTTP\ng2ts\ng2ts\bin\Debug\ng2ts.exe.config
+C:\HTTP\ng2ts\ng2ts\bin\Debug\ng2ts.exe
+C:\HTTP\ng2ts\ng2ts\bin\Debug\ng2ts.pdb
+C:\HTTP\ng2ts\ng2ts\bin\Debug\ng2ts.xml
+C:\HTTP\ng2ts\ng2ts\obj\Debug\ng2ts.vbprojResolveAssemblyReference.cache
+C:\HTTP\ng2ts\ng2ts\obj\Debug\ng2ts.Resources.resources
+C:\HTTP\ng2ts\ng2ts\obj\Debug\ng2ts.vbproj.GenerateResource.Cache
+C:\HTTP\ng2ts\ng2ts\obj\Debug\ng2ts.exe
+C:\HTTP\ng2ts\ng2ts\obj\Debug\ng2ts.xml
+C:\HTTP\ng2ts\ng2ts\obj\Debug\ng2ts.pdb

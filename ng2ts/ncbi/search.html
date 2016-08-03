@@ -1,0 +1,42 @@
+﻿<tabs #Tabs1>
+    <tab tabTitle="Search PubMed">
+        <div>
+            <input type="text" [(ngModel)]="ncbikeywords" placeholder="keywords to search" />
+            <button (click)="search();">Search</button>
+        </div>
+        <div>
+            <h4>List of Background Searching Tasks</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Keywords</td>
+                        <td>Start Time</td>
+                        <td>Status</td>
+                        <td>Progress</td>
+                        <td>End Time</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let task of tasks">
+                        <td>{{task.id}}</td>
+                        <td>{{task.keywords}}</td>
+                        <td>{{task.starttime}}</td>
+                        <td>{{task.status}}</td>
+                        <td>{{task.progress}}</td>
+                        <td>{{task.endtime}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </tab>
+    <tab tabTitle="Search Local">
+        <div>
+            <input type="text" [(ngModel)]="localkeyword" placeholder="keywords to search" />
+            <button (click)="search();">Search</button>
+        </div>
+    </tab>
+</tabs>
+
+
+
